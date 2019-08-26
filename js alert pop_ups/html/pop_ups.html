@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>  
+    <link rel="stylesheet" type="text/css" href="../css/pop_ups.css">  
+</head>
+<body>
+    <script type="text/javascript" src="../js/pop_ups.js"></script>
+    <button onclick="showPopBox()">点击显示</button>
+    <div class="popBox" id="popBox-demo" style="display:none">
+        <div class="popBox-mask" onclick="back()"></div>
+        <div class="popBox-content">
+            <p>此处添加弹框内容</p>
+            <a href="javascript:void(0)" onclick="hidePopBox()" class="btn-close">关闭弹框</a>
+        </div>
+    </div>
+</body>
+</html>
